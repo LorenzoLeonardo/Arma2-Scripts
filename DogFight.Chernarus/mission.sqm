@@ -1,0 +1,232 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"chernarus",
+		"cacharacters2"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters2",
+		"chernarus"
+	};
+	randomSeed=5175893;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+	class Groups
+	{
+		items=1;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6216.5967,8.3937225,2534.2961};
+					id=0;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="CORPORAL";
+					skill=1;
+					init="this allowDamage false;";
+				};
+			};
+		};
+	};
+	class Markers
+	{
+		items=10;
+		class Item0
+		{
+			position[]={6209.0952,9.2455578,2554.9407};
+			name="West Start";
+			text="West Start";
+			type="mil_start";
+			colorName="ColorBlue";
+			angle=90.1492;
+		};
+		class Item1
+		{
+			position[]={7152.8428,14.599194,2955.7371};
+			name="East Start";
+			text="East Start";
+			type="mil_start";
+			colorName="ColorRed";
+			angle=229.088;
+		};
+		class Item2
+		{
+			position[]={6645.3042,8.6519547,3035.9402};
+			name="way_1";
+			text="Way Point 2";
+			type="mil_marker";
+			colorName="ColorBlack";
+		};
+		class Item3
+		{
+			position[]={6864.5264,6.0146794,2914.5063};
+			name="way_2";
+			text="Way Point 3";
+			type="mil_marker";
+			colorName="ColorBlack";
+		};
+		class Item4
+		{
+			position[]={6282.0835,14.383372,2800.5964};
+			name="way";
+			text="Way Point 1";
+			type="mil_marker";
+			colorName="ColorBlack";
+		};
+		class Item5
+		{
+			position[]={7007.8237,6.0127869,2609.8499};
+			name="way_3";
+			text="Way Point 4";
+			type="mil_marker";
+			colorName="ColorBlack";
+		};
+		class Item6
+		{
+			position[]={6551.6099,6,2322.572};
+			name="way_4";
+			text="Way Point 5";
+			type="mil_marker";
+			colorName="ColorBlack";
+		};
+		class Item7
+		{
+			position[]={6361.7202,8.8511219,2446.8879};
+			name="way_5";
+			text="Way Point 6";
+			type="mil_marker";
+			colorName="ColorBlack";
+		};
+		class Item8
+		{
+			position[]={6569.5542,6.0018783,2664.4246};
+			name="way_6";
+			text="Way Point 7";
+			type="mil_marker";
+			colorName="ColorBlack";
+		};
+		class Item9
+		{
+			position[]={6712.7251,6,2530.8125};
+			name="way_7";
+			text="Way Point 8";
+			type="mil_marker";
+			colorName="ColorBlack";
+		};
+	};
+	class Sensors
+	{
+		items=2;
+		class Item0
+		{
+			position[]={6706.645,6,2728.7009};
+			a=700;
+			b=450;
+			angle=158.515;
+			interruptable=1;
+			age="UNKNOWN";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={6194.521,12.238036,2554.2815};
+			a=0;
+			b=0;
+			activationBy="WEST";
+			activationType="NOT PRESENT";
+			interruptable=1;
+			type="SWITCH";
+			age="UNKNOWN";
+			expActiv="_scriptStartGame = [""West Start"",""way"",""way_1"",""way_2"",""way_3"",""way_4"",""way_5"",""way_6"",""way_7"",""way_8""] execVM ""StartFight.sqf"";";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=7889433;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=16608389;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=3237783;
+	class Intel
+	{
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};

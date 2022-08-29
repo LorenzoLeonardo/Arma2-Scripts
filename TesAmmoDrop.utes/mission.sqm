@@ -1,0 +1,272 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"cacharacters2",
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters2",
+		"utes"
+	};
+	randomSeed=7909374;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+	class Groups
+	{
+		items=2;
+		class Item0
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={3739.9656,19,3610.6348};
+					azimut=180;
+					id=0;
+					side="EAST";
+					vehicle="RU_Soldier_Light";
+					leader=1;
+					skill=1;
+					init="this allowDamage false;";
+				};
+				class Item1
+				{
+					position[]={3740.2705,19,3610.9941};
+					azimut=270;
+					id=10;
+					side="EAST";
+					vehicle="RU_Soldier_Light";
+					skill=1;
+					init="this allowDamage false;";
+				};
+				class Item2
+				{
+					position[]={3740.2273,19,3610.1418};
+					azimut=270;
+					id=11;
+					side="EAST";
+					vehicle="RU_Soldier_Light";
+					skill=1;
+					init="this allowDamage false;";
+				};
+				class Item3
+				{
+					position[]={3740.2058,19,3609.5918};
+					azimut=270;
+					id=12;
+					side="EAST";
+					vehicle="RU_Soldier_Light";
+					skill=1;
+					init="this allowDamage false;";
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3739.9656,19,3610.6348};
+					id=0;
+					combatMode="BLUE";
+					formation="LINE";
+					combat="CARELESS";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={3758.0413,19,3610.9221};
+					azimut=270;
+					id=1;
+					side="WEST";
+					vehicle="USMC_Soldier_SL";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.59999996;
+					init="this setGroupID[""Alpha""]; _script = [group this] execVM ""checkAmmoStatus.sqf"";";
+				};
+				class Item1
+				{
+					position[]={3763.0413,19,3613.9221};
+					azimut=270;
+					id=2;
+					side="WEST";
+					vehicle="USMC_Soldier_TL";
+					rank="SERGEANT";
+					skill=0.46666664;
+				};
+				class Item2
+				{
+					position[]={3763.0413,19,3615.9221};
+					azimut=270;
+					id=3;
+					side="WEST";
+					vehicle="USMC_Soldier_AR";
+					rank="CORPORAL";
+					skill=0.33333331;
+				};
+				class Item3
+				{
+					position[]={3763.0413,19,3617.9221};
+					azimut=270;
+					id=4;
+					side="WEST";
+					vehicle="USMC_Soldier_LAT";
+					rank="CORPORAL";
+					skill=0.33333331;
+				};
+				class Item4
+				{
+					position[]={3763.0413,19,3619.9221};
+					azimut=270;
+					id=5;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					skill=0.2;
+				};
+				class Item5
+				{
+					position[]={3768.0413,19,3613.9221};
+					azimut=270;
+					id=6;
+					side="WEST";
+					vehicle="USMC_Soldier_TL";
+					rank="SERGEANT";
+					skill=0.46666664;
+				};
+				class Item6
+				{
+					position[]={3768.0413,19,3615.9221};
+					azimut=270;
+					id=7;
+					side="WEST";
+					vehicle="USMC_Soldier_AR";
+					rank="CORPORAL";
+					skill=0.33333331;
+				};
+				class Item7
+				{
+					position[]={3768.0413,19,3617.9221};
+					azimut=270;
+					id=8;
+					side="WEST";
+					vehicle="USMC_Soldier_LAT";
+					rank="CORPORAL";
+					skill=0.33333331;
+				};
+				class Item8
+				{
+					position[]={3768.0413,19,3619.9221};
+					azimut=270;
+					id=9;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					player="PLAYER COMMANDER";
+					skill=0.2;
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3757.0786,19,3610.8638};
+					formation="LINE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=13267712;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=9756008;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=7902977;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};

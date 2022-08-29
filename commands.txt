@@ -1,0 +1,4 @@
+nul=[alpha,plane1] execvm "groupeject.sqf";
+
+charlie = group this;{_x moveInCargo plane3} foreach units group this;
+this setPos [getPos this select 0,getPos this select 1,300];this flyinheight 300;

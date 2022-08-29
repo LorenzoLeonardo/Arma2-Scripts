@@ -1,0 +1,156 @@
+class CfgRadio
+{
+	sounds[] = {};
+	class RadioPapaBearEliminateOfficersMissionIntro1
+	{
+		// display name
+		name	= "RadioPapaBearEliminateOfficersMissionIntro1";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioPapaBearEliminateOfficersMissionIntro1.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Papa Bear to Alpha and Bravo. According to the intel. There are 8 high ranking officers in Zelenogorsk. Your mission is to liquidate all of these officers.";
+	};
+	
+	class RadioPapaBearEliminateOfficersMissionIntro2
+	{
+		// display name
+		name	= "RadioPapaBearEliminateOfficersMissionIntro2";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioPapaBearEliminateOfficersMissionIntro2.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "These officers are planning to create nuclear weapons that will destroy the world. God be with you and lead this mission to success. The world needs you right now. Papa Bear out!";
+	};
+
+	class RadioPapaBearEliminateOfficersMissionIntro3
+	{
+		// display name
+		name	= "RadioPapaBearEliminateOfficersMissionIntro3";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioPapaBearEliminateOfficersMissionIntro3.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Alpha and Bravo, mission updates! According to intel, these officers are heavily guarded with skilled Spetsnaz. Be careful in dealing with them. Please come home alive. Do you copy?";
+	};
+	
+	class RadioAlphaPapaBearWeCopy
+	{
+		// display name
+		name	= "RadioAlphaPapaBearWeCopy";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioAlphaPapaBearWeCopy.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Copy that Papa Bear! Thanks for the heads up. We will do our best. Alpha Out!";
+	};
+	
+	class RadioAlphaInPosition
+	{
+		// display name
+		name	= "RadioAlphaInPosition";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioAlphaInPosition.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Papa Bear, Alpha team is in position. Waiting for your signal.";
+	};
+
+	class RadioBravoInPosition
+	{
+		// display name
+		name	= "RadioBravoInPosition";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioBravoInPosition.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Papa Bear, Bravo team is in position. Waiting for your signal.";
+	};	
+
+	class RadioPapaBearCommenceAttack
+	{
+		// display name
+		name	= "RadioPapaBearCommenceAttack";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioPapaBearCommenceAttack.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Papa Bear to Alpha and Bravo. Proceed with the mission. Make sure all officers in the city will be liquidated. Papa Bear out!";
+	};	
+
+	class RadioMissionAccomplished
+	{
+		// display name
+		name	= "RadioMissionAccomplished";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioMissionAccomplished.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Alpha to Papa Bear, all high ranking officers are now eliminated.";
+	};
+	
+	class RadioPapaBearVictoryReply
+	{
+		// display name
+		name	= "RadioPapaBearVictoryReply";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioPapaBearVictoryReply.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Good job everyone! The world will be in peace again. Thanks to your efforts. Papa Bear out!";
+	};
+
+	class RadioAlphaWipedOut
+	{
+		// display name
+		name	= "RadioAlphaWipedOut";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioAlphaWipedOut.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Papa Bear! Alpha team suffered heavy losses in this area. All my friends are dead, I'm the only one left. Alpha out!";
+	};		
+	class RadioPapaBearAlphaWipedOutReply
+	{
+		// display name
+		name	= "RadioPapaBearAlphaWipedOutReply";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioPapaBearAlphaWipedOutReply.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Damn! Alpha, please join with Bravo team and make sure to end this mission to success. If not, the whole world will be at the mercy of these oppressors. Papa Bear out!";
+	};		
+	class RadioBravoWipedOut
+	{
+		// display name
+		name	= "RadioBravoWipedOut";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioBravoWipedOut.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Papa Bear! Bravo team suffered heavy losses in this area. All my friends are dead, I'm the only one left. Bravo out!";
+	};	
+	class RadioPapaBearBravoWipedOutReply
+	{
+		// display name
+		name	= "RadioPapaBearBravoWipedOutReply";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioPapaBearBravoWipedOutReply.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Damn! Bravo, please join with Alpha team and make sure to end this mission to success. If not, the whole world will be at the mercy of these oppressors. Papa Bear out!";
+	};	
+};

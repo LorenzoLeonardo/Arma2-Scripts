@@ -1,0 +1,414 @@
+class CfgRadio
+{
+	sounds[] = {};
+	class RadioPapaBearIntro
+	{
+		// display name
+		name	= "RadioPapaBearIntro";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioPapaBearIntro.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Papa Bear to all units! Please be advised that a large Russian forces are coming your way. Our satellite feed shows a large number of troops and tanks out there! Papa Bear out!";
+	};
+	class RadioPapaBearDefendTheCityWithArtillerySupport
+	{
+		// display name
+		name	= "RadioPapaBearDefendTheCityWithArtillerySupport";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioPapaBearDefendTheCityWithArtillerySupport.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Papa Bear to all units! Please defend the city at all cost! You can use our artillery support to get rid of the invaders! Papa Bear out!";
+	};
+	class RadioPapaBearReplyWipedOut
+	{
+		// display name
+		name	= "RadioPapaBearReplyWipedOut";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioPapaBearReplyWipedOut.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Damn! This is Papa Bear, Keep it up back up on the run. Please stick together with remaining forces in the vicinity. Papa Bear out!";
+	};
+	class RadioPapaBearToAllUnitsClearArea
+	{
+		// display name
+		name	= "RadioPapaBearToAllUnitsClearArea";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioPapaBearToAllUnitsClearArea.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Attention all units! New orders! Eliminate all remaining forces in the vicinity. Clearing the rest of the area will be a child's play. Papa Bear Out!";
+	};
+	class RadioPapaBearEnemyEnteringCityArtillery
+	{
+		// display name
+		name	= "RadioPapaBearEnemyEnteringCityArtillery";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioPapaBearEnemyEnteringCityArtillery.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Papa Bear to all units. Please be advised that Russian forces just entered the artillery firing range. Use artillery fire mission now! Smoke them over!";
+	};
+	class RadioPapaBearEnemyEnteringCityMortar
+	{
+		// display name
+		name	= "RadioPapaBearEnemyEnteringCityMortar";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioPapaBearEnemyEnteringCityMortar.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Papa Bear to all units. Please be advised that Russian forces just entered the mortar firing range. Use mortar fire mission now! Smoke them over!";
+	};
+	class RadioPapaBearVictory
+	{
+		// display name
+		name	= "RadioPapaBearVictory";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioPapaBearVictory.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Good job everyone. Let us have some beer later.";
+	};
+	class RadioGroundToPapaBearVictory
+	{
+		// display name TOM (US)
+		name	= "RadioGroundToPapaBearVictory";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioGroundToPapaBearVictory.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Ground units to papa bear. Enemy forces have been neutralized. The city is now safe. Over?";
+	};
+	class RadioMortarFiring
+	{
+		// display name
+		name	= "RadioMortarFiring";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioMortarFiring.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Mortar shots fired!";
+	};
+	class RadioArtilleryFiring
+	{
+		// display name Simon (UK)
+		name	= "RadioArtilleryFiring";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioArtilleryFiring.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Shots fired!";
+	};
+	class RadioArtilleryRoundsComplete
+	{
+		// display name Simon (UK)
+		name	= "RadioArtilleryRoundsComplete";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioArtilleryRoundsComplete.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Rounds complete!";
+	};
+	class RadioArtilleryOutOfAmmo
+	{
+		// display name Simon (UK)
+		name	= "RadioArtilleryOutOfAmmo";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioArtilleryOutOfAmmo.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Artillery is now out of ammo!";
+	};
+	class RadioMortarOutOfAmmo
+	{
+		// display name
+		name	= "RadioMortarOutOfAmmo";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioMortarOutOfAmmo.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Mortar is now out of ammo!";
+	};
+	class RadioAlphaWipedOut
+	{
+		// display name  TOM(US)
+		name	= "RadioAlphaWipedOut";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioAlphaWipedOut.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "This is Alpha team. We are under heavy fire at this location. We received heavy resistance and casualties. Ordering an urgent assistance over?";
+	};
+	class RadioBravoWipedOut
+	{
+		// display name  Hugh (UK)
+		name	= "RadioBravoWipedOut";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioBravoWipedOut.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "This is Bravo team. We are under heavy fire at this location. We received heavy resistance and casualties. Ordering an urgent assistance over?";
+	};
+	class RadioCharlieWipedOut
+	{
+		// display name Alan (Austratian)
+		name	= "RadioCharlieWipedOut";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioCharlieWipedOut.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "This is Charlie team. We are under heavy fire at this location. We received heavy resistance and casualties. Ordering an urgent assistance over?";
+	};
+	class RadioDeltaWipedOut
+	{
+		// display name Paul (US)
+		name	= "RadioDeltaWipedOut";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioDeltaWipedOut.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "This is Delta team. We are under heavy fire at this location. We received heavy resistance and casualties. Ordering an urgent assistance over?";
+	};
+	class RadioAirbaseSupport
+	{
+		// display name Steven (US)
+		name	= "RadioAirbaseSupport";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioAirbaseSupport.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "This is November. Our air support division is coming to support our guys below. November out!";
+	};
+	class RadioAirbaseDropPackage
+	{
+		// display name
+		name	= "RadioAirbaseDropPackage";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioAirbaseDropPackage.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "November dropping the package. Out!";
+	};
+	class RadioTankSupportToCaller
+	{
+		// display name
+		name	= "RadioTankSupportToCaller";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioTankSupportToCaller.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "This is Yankee Platoon reporting for duty. Hang in there boys, we're going to lend you some hand.";	
+	}
+	class RadioCallerToTankSupport
+	{
+		// display name
+		name	= "RadioCallerToTankSupport";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioCallerToTankSupport.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Get your asses over here and lend us a hand. We will be cut into pieces at this rate.";	
+	}
+	
+	class RadioArtillerySupportAlpha
+	{
+		// display name TOM(US)
+		name	= "RadioArtillerySupportAlpha";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioArtillerySupportAlpha.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "This is Alpha team. Requesting for immediate artillery fire support. Over?";	
+	}
+	class RadioArtilleryAdjustAlpha
+	{
+		// display name TOM(US)
+		name	= "RadioArtilleryAdjustAlpha";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioArtilleryAdjustAlpha.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Adjust coordinates!";	
+	}
+	class RadioArtillerySupportBravo
+	{
+		// display name Hugh (UK)
+		name	= "RadioArtillerySupportBravo";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioArtillerySupportBravo.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "This is Bravo team. Requesting for immediate artillery fire support. Over?";	
+	}
+	class RadioArtilleryAdjustBravo
+	{
+		// display name Hugh (UK)
+		name	= "RadioArtilleryAdjustBravo";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioArtilleryAdjustBravo.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Adjust coordinates!";	
+	}
+	class RadioArtillerySupportCharlie
+	{
+		// display name Alan (Austratian)
+		name	= "RadioArtillerySupportCharlie";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioArtillerySupportCharlie.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "This is Charlie team. Requesting for immediate artillery fire support. Over?";	
+	}	
+	class RadioArtilleryAdjustCharlie
+	{
+		// display name Alan (Austratian)
+		name	= "RadioArtilleryAdjustCharlie";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioArtilleryAdjustCharlie.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Adjust coordinates!";	
+	}	
+	class RadioArtillerySupportReplyAlpha
+	{
+		// display name
+		name	= "RadioArtillerySupportReplyAlpha";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioArtillerySupportReplyAlpha.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Roger Alpha team! Artillery firing. Out!";	
+	}
+	class RadioArtillerySupportReplyBravo
+	{
+		// display name
+		name	= "RadioArtillerySupportReplyBravo";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioArtillerySupportReplyBravo.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Roger Bravo team! Artillery firing. Out!";	
+	}
+	class RadioArtillerySupportReplyCharlie
+	{
+		// display name
+		name	= "RadioArtillerySupportReplyCharlie";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioArtillerySupportReplyCharlie.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Roger Charlie team! Artillery firing. Out!";	
+	}
+	class RadioAmmoSupplyRequestAlpha
+	{
+		// display name
+		name	= "RadioAmmoSupplyRequestAlpha";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioAmmoSupplyRequestAlpha.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Come in Papa Bear! This is Alpha team. We are running out of ammunitions. We're requesting an ammo supply drop in this area. Over?";	
+	}
+	class RadioPapaBearAmmoSupplyRequestReply
+	{
+		// display name
+		name	= "RadioPapaBearAmmoSupplyRequestReply";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioPapaBearAmmoSupplyRequestReply.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Copy that Alpha team. November, can you send ammunitions to our guys in the area? Papa Bear out!";	
+	}
+	class RadioNovemberAmmoSupplyRequestConfirm
+	{
+		// display name
+		name	= "RadioNovemberAmmoSupplyRequestConfirm";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioNovemberAmmoSupplyRequestConfirm.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Roger that Papa Bear! November to ground units, ammunition supply coming your way. ETA 1 minute. Out!";	
+	}
+	class RadioAlphaAmmoSupplyWaiting
+	{
+		// display name
+		name	= "RadioAlphaAmmoSupplyWaiting";
+
+		// filename, volume, pitch
+		sound[]	= { "\sounds\RadioAlphaAmmoSupplyWaiting.ogg", db + 100, 1.0 };
+
+		// radio caption
+		title	= "Copy that November! We are holding at the moment. Waiting for the ammunitions. Alpha out!";	
+	}
+};
+
+
+class CfgSounds {
+	
+	class IncomingArtillery0 
+	{
+		name="IncomingArtillery0";
+		sound[] = {"\Sounds\IncomingArtillery0.ogg", db + 100, 1.0};
+		titles[]={};
+	};
+	class IncomingArtillery1 
+	{
+		name="IncomingArtillery1";
+		sound[] = {"\Sounds\IncomingArtillery1.ogg", db + 100, 1.0};
+		titles[]={};
+	};
+	class IncomingArtillery2 
+	{
+		name="IncomingArtillery2";
+		sound[] = {"\Sounds\IncomingArtillery2.ogg", db + 100, 1.0};
+		titles[]={};
+	};
+	class IncomingArtillery3 
+	{
+		name="IncomingArtillery3";
+		sound[] = {"\Sounds\IncomingArtillery3.ogg", db + 100, 1.0};
+		titles[]={};
+	};
+	class IncomingArtillery4 
+	{
+		name="IncomingArtillery4";
+		sound[] = {"\Sounds\IncomingArtillery4.ogg", db + 100, 1.0};
+		titles[]={};
+	};
+};
